@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "trabajo-final-83194": {
+      "hosting": {
+        "evaluacionFinal": [
+          "trabajo-final-83194"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "trabajo-final-83194"
+  }
+}

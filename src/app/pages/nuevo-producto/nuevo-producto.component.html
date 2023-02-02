@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-sm-8 mx-auto mb-2">
+      <h2 class="mt-4 mb-2">Nuevo Producto</h2><br>
+      <h4>Produtos</h4>
+      <form [formGroup]="formRegister">
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" formControlName="nameProduct">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Descripción</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="description"></textarea>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <label class="form-label">Costo</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" formControlName="price">
+          </div>
+          <div class="col-sm-6 mb-3">
+            <label class="form-label">Oferta</label>s
+            <input type="number" class="form-control" id="exampleFormControlInput1">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Imagen</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" formControlName="img">
+        </div>
+      </form>
+      <div>
+        <button type="button" class="btn btn-primary" (click)="onSubmit()">Registrar Producto</button>
+      </div>
+    </div>
+  </div>
+</div>

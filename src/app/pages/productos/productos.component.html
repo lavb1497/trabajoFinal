@@ -1,0 +1,16 @@
+<div class="containter d-flex justify-content-center mt-4">
+  <div class="row mx-auto">
+    <h1 class="mb-4">Productos</h1>
+    <div class="col-sm-3 mt-4" *ngFor="let product of products">
+      <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/frutas-en-un-carro-de-compras-24902758.jpg" width="85%" class="imgFrutas" alt="...">
+        <div class="card-body" >
+          <h3>{{ product.nameProduct }}</h3>
+          <p>{{ product.price }}</p>
+          <a class="card-link">Agregar al carrito</a>
+          <a class="card-link">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

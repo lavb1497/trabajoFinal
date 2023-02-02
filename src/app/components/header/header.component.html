@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png" alt="imgAngular" id="img"></a>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/productosStock">Productos STOCK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/agregarProducto">Agregar Producto</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active">Cerrar Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Hola, {{ nombre }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
